@@ -1,0 +1,1 @@
+print('pytonとgitの練習ファイル')
