@@ -18,3 +18,14 @@ def prime_numbers(d):
 
 numbers = prime_numbers(10)
 print(numbers)
+
+#約数
+
+a, b, c = map(int, input().split())
+count = 0
+
+for i in range(a, b + 1):
+    if c % i == 0:
+        count += 1
+
+print(count)
