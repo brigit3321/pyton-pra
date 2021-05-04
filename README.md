@@ -11,7 +11,7 @@
 アルゴリズムの作成
 -inputで入力したリストを並べ替える
 
-```
+```python
 #sortの例
 n = int(input())
 a = list(map(int, input().split()))
@@ -19,7 +19,8 @@ d = sorted(a)
 for i in d:
  print(i)
 ```
-ここで重要なのがsort()ではなくsorted()を使うこと
+
+ここで重要なのが`sort()`ではなく `sorted()`を使うこと
 
 ----------------------------
 **最後に**
