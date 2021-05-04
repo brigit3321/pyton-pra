@@ -1,4 +1,4 @@
-#素数を出力する関数
+# 素数を出力する関数
 
 def prime_numbers(d):
 
@@ -19,7 +19,7 @@ def prime_numbers(d):
 numbers = prime_numbers(10)
 print(numbers)
 
-#約数
+# 約数
 
 a, b, c = map(int, input().split())
 count = 0
